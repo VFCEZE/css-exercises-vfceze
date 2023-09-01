@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*my solution */
+  display: flex;
+  flex-direction: row;
 }
 
 .icon {
@@ -27,12 +30,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  min-width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  /*my solution */
+  margin: 10px 10px;
 }
 
 .close-button {
@@ -66,4 +71,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Heres comes my solution */
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 5px;
+}
+
+.cointainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-box {
+  height: 100%
+}
+
+.button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 10px 0;
+}
+
+.header {
+  font-weight: bold;
 }

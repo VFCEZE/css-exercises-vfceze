@@ -10,7 +10,36 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding-bottom: 50px;
 }
+
+
+/*This is part of my solution */
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.box {
+  max-width: 25%;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px; 
+  display: flex;
+  flex-direction:  column;
+}
+
+.text {
+  
+  text-align: center;
+}
+/* End of solution */
+
 
 /* do not edit this footer */
 .footer {

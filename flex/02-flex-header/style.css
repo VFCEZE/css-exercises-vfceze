@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* What comes down is my solution */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -9,11 +14,23 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 0 40px; 
+  
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  /* What comes down is my solution */
+  justify-content: space-between 30px;
+  align-items: center;
+  gap: 40px;
+  padding-left: 0;
+  justify-items: flex-start;
+
+
 }
 
 a {
@@ -22,4 +39,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  
 }

@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /*This is my solution*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -22,11 +27,19 @@ body {
   height: 48px;
 }
 
+/*This is my solution*/
+.left {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 20px;
 }
 
 button {
@@ -45,4 +58,16 @@ a {
 
 ul {
   list-style-type: none;
+  /*This is my solution*/
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+/*This is my solution*/
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin: 16px;
 }
